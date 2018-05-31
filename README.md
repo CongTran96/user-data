@@ -1,16 +1,10 @@
-### Instruction
-This is backend server run in python. This storages username and password.
-
-### Installation and Usage
-Make sure you have installed python.
-Check python version:
+### 1 Install python, django...
+1. Check python version:
 `python --version`
-if not show the python version. You must install python like this.Go to [here](https://www.python.org) for more. Just download and run.
+if not show the python version, Download[here](https://www.python.org) for more
 
-First `clone` this
-
-Second install **virtuallenv**, the virtual for django framework. Go to the direct folder of this project. The direction may
-like that `~/user-data/...`. Open terminal and type follow below:
+2. Clone project
+3. install **virtuallenv**. Open terminal and type follow below:
 
 ```
     sudo apt install python-virtualenv
@@ -30,8 +24,7 @@ Make Database
     python manage.py migrate
 ```
 
-You need to make first user. Let's create superuser (seem like normal user because I only know this to create user by commandline):
-
+Then
 ```
     python manage.py createsuperuser
 ```
@@ -42,4 +35,5 @@ Now, running server.
     python manage.py runserver
 ```
 
+4. View json data
 go [127.0.0.1:8000/users/](http://127.0.0.1:8000/users) to correct connect server.
