@@ -23,6 +23,12 @@ Third install django:
     pip install django~=1.11.0
 ```
 
+Make Database
+```
+    python manage.py makemigrations
+    python manage.py migrate
+```
+
 You need to make first user. Let's create superuser (seem like normal user because I only know this to create user by commandline):
 
 ```
